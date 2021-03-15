@@ -11,7 +11,7 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
-    <Router>
+  <Router>
     <div >
       <Navbar />
         

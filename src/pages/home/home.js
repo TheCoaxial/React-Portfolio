@@ -1,4 +1,6 @@
 import React from "react";
+import Headshot from "../../Assests/Headshot.png";
+import Resume from "../../Assests/Resume for Web Dev.pdf";
 import "./home.css";
 
 const Home = () =>(
@@ -9,7 +11,7 @@ const Home = () =>(
             <hr></hr>
 
             <div className="float-left extra-padding">
-                <img src="Assets\screenCaps\Headshot.png" alt="A headshot of Cory" />
+                <img src={Headshot} alt="A headshot of Cory" />
             </div>
                 <div className="content-inside">
                     <p>
@@ -25,7 +27,7 @@ const Home = () =>(
                         <a href="https://github.com/TheCoaxial">Github Profile</a>
                     </p>
                     <p><a href="https://www.linkedin.com/in/cory-scanlon-6522311b7/">Linkedin Profile</a></p>
-                    <a href="Assets/Resume for Web Dev.pdf" download="Cory Scanlon's Resume">Download Cory's Resume</a>
+                    <a href={Resume} download="Cory Scanlon's Resume">Download Cory's Resume</a>
                     <p>Thecoaxial@gmail.com</p> <p>(740)814-5702</p>
 
                 </div>
