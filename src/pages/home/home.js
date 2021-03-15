@@ -8,7 +8,7 @@ const Home = () =>(
 
             <hr></hr>
 
-            <div class="float-left extra-padding">
+            <div className="float-left extra-padding">
                 <img src="Assets\screenCaps\Headshot.png" alt="A headshot of Cory" />
             </div>
                 <div className="content-inside">
