@@ -4,17 +4,18 @@ import Resume from "../../Assests/Resume for Web Dev.pdf";
 import "./home.css";
 
 const Home = () =>(
-    <div className ="container float-left">
-        <section className="content">
-            <h1>Home</h1>
+    <div className ="container ">
+        <h1>Home</h1>
 
-            <hr></hr>
+        <hr></hr>
+        <section className="content aboutMe">
+            
 
-            <div className="float-left extra-padding">
+            <div className="extra-padding">
                 <img src={Headshot} alt="A headshot of Cory" />
             </div>
                 <div className="content-inside">
-                    <p>
+                    <p className="clearfix">
                         Hi there, I'm a manufacturing technician transitioning into full stack web developing. 
                         In my previous work I was responsible for maintaining and repairing large and often dangerous equipment. 
                         Due to this, I developed a keen sense of detail and organization as overlooking some detail, even a seemingly minor one, could have a major effect. 

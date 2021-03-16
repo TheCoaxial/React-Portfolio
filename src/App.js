@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import './App.css';
 import Portfolio from "./pages/Portfolio/Portfolio";
+import { Redirect } from "react-router";
 
 
 
@@ -14,10 +15,11 @@ function App() {
   <Router>
     <div >
       <Navbar />
-        
+                
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
+        <Redirect exact from="/ReactPortfolio" to="/" />
          
       <Footer />
       
