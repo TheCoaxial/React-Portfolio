@@ -9,7 +9,7 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import { Redirect } from "react-router";
 
 
-
+// Small comment
 function App() {
   return (
   <Router>
