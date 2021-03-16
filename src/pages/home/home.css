@@ -1,0 +1,16 @@
+.content-inside{
+    padding: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.content{
+    min-height: 100%;   
+    background-color:whitesmoke;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
