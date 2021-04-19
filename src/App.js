@@ -5,6 +5,7 @@ import Contact from "./pages/contact/Contact";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import './App.css';
+import background from "./Assests/Background.jpg"
 import Portfolio from "./pages/Portfolio/Portfolio";
 import { Redirect } from "react-router";
 
@@ -13,14 +14,15 @@ import { Redirect } from "react-router";
 function App() {
   return (
   <Router>
-    <div >
+    <div className="">
       <Navbar />
                 
         <Route exact path="/" component={Home} />
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Redirect exact from="/ReactPortfolio" to="/" />
-         
+    </div>
+
+    <div>  
       <Footer />
       
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Headshot from "../../Assests/Headshot.png";
 import Resume from "../../Assests/Resume for Web Dev.pdf";
+import FWF from "../../Assests/Screencaps/FWF.png";
 import "./home.css";
 
 const Home = () =>(
@@ -8,9 +9,8 @@ const Home = () =>(
         <h1>Home</h1>
 
         <hr></hr>
-        <section className="content aboutMe">
+        <section className="content aboutMe ">
             
-
             <div className="extra-padding">
                 <img src={Headshot} alt="A headshot of Cory" />
             </div>
@@ -27,11 +27,32 @@ const Home = () =>(
                     <p>
                         <a href="https://github.com/TheCoaxial">Github Profile</a>
                     </p>
-                    <p><a href="https://www.linkedin.com/in/cory-scanlon-6522311b7/">Linkedin Profile</a></p>
+
+                    <p>
+                        <a href="https://www.linkedin.com/in/cory-scanlon-6522311b7/">Linkedin Profile</a>
+                    </p>
+                    <p>
                     <a href={Resume} download="Cory Scanlon's Resume">Download Cory's Resume</a>
-                    <p>Thecoaxial@gmail.com</p> <p>(740)814-5702</p>
+                    </p>
+                    <p>Email: Thecoaxial@gmail.com</p> <p>Phone: (740)814-5702</p>
 
                 </div>
+        </section>
+        
+        <section className="bottom-section">
+            <h1 className="">Current Project</h1>
+            <hr></hr>
+
+        <div className="block-center content">
+            <div className="bottom-section" >
+            <h3><p>Fun With Fermentation</p></h3>
+                <h4><p><a href="https://github.com/TheCoaxial/Final-Project">Click Here to See the Repository or Click the Image to Go to the Deployed Site</a></p></h4>
+                <a href="https://salty-dawn-64372.herokuapp.com/" target="_blank">
+                <img src={FWF} alt="A screen shot of the profile page" />
+                </a>
+            </div>                
+        </div>
+        
         </section>
     </div>
 );
