@@ -1,6 +1,6 @@
 .content-inside{
     padding: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     
 }
 
@@ -25,6 +25,14 @@
     padding-left: 15px;
     margin-top: 10px;
     
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+h1{
+    color: #36454f;
 }
 
 p{
