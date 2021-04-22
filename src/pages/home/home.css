@@ -1,12 +1,12 @@
 .content-inside{
-    padding: 20px;
-    padding-bottom: 20px;
+    padding: 1.25rem;
+    padding-bottom: 1.25rem;
     
 }
 
 .bottom-section{
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 1.25rem;
+    padding-bottom: 3.75rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,13 +22,13 @@
 .content{
     min-height: 100%;   
     background-color:whitesmoke;
-    padding-left: 15px;
-    margin-top: 10px;
+    padding-left: 0.938rem;
+    margin-top: 0.625rem;
     
 }
 
 .margin-top{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 h1{
@@ -37,5 +37,5 @@ h1{
 
 p{
     font-family: 'Roboto', sans-serif;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }

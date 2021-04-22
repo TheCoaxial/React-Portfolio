@@ -43,14 +43,10 @@ const Home = () =>(
         
         <section className="bottom-section">
 
-       
-
         <h1 className="block-center">Current Project</h1>
 
-        <div className="block-center content">
-            
-            <div className="bottom-section" >
-            
+        <div className="block-center content">    
+            <div className="bottom-section" >    
             <h3><p>Fun With Fermentation</p></h3>
                 <h4><p><a href="https://github.com/TheCoaxial/Final-Project" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
                 <a href="https://salty-dawn-64372.herokuapp.com/" target="_blank">

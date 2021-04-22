@@ -42,7 +42,7 @@ const Portfolio = () => (
             </section>    
         </div>
 
-        <div className="container content" >
+        <div className="container content bottom-section" >
             <section className="bottom-section block-center">
                 <div className="row mt-12 ">   
                     <div className="col-lg-12 mb-3">
