@@ -24,7 +24,11 @@
     background-color:whitesmoke;
     padding-left: 0.938rem;
     margin-top: 0.625rem;
-    
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
 }
 
 .margin-top{

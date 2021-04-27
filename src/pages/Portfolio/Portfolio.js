@@ -20,7 +20,7 @@ const Portfolio = () => (
                         <hr></hr>
                         <h4><p><a href="https://github.com/TheCoaxial/Final-Project" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
                         <a href="https://salty-dawn-64372.herokuapp.com/" target="_blank">
-                        <img src={FWF} alt="A screen shot of the profile page" />
+                        <img src={FWF} alt="A screen shot of the profile page" className="responsive" />
                         </a>
                     </div>      
                 </div>
@@ -35,7 +35,7 @@ const Portfolio = () => (
                         <hr></hr>
                         <h4><p><a href="https://github.com/mdurst365/Project2" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
                         <a href="https://project2sports.herokuapp.com/login" target="_blank">
-                        <img src={SoccerApp} alt="A Soccer Field App with Dragable Players" />
+                        <img src={SoccerApp} alt="A Soccer Field App with Dragable Players" className="responsive" />
                         </a>  
                     </div>                  
                 </div>
@@ -50,7 +50,7 @@ const Portfolio = () => (
                         <hr></hr>
                         <h4><p><a href="https://github.com/TheCoaxial/Your-Menu-for-Today" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
                         <a href="https://thecoaxial.github.io/Your-Menu-for-Today/" target="_blank">
-                        <img src={YMFT} alt="A screen shot of this website's homepage" />
+                        <img src={YMFT} alt="A screen shot of this website's homepage" className="responsive" />
                         </a>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../../Assests/Headshot.png";
+import Headshot from "../../Assests/Headshot.jpg";
 import Resume from "../../Assests/Resume for Web Dev.pdf";
 import FWF from "../../Assests/Screencaps/FWF.png";
 import "./home.css";
@@ -11,10 +11,9 @@ const Home = () =>(
         
         <section className="content aboutMe ">
             
-            <div className="extra-padding">
-                <img src={Headshot} alt="A headshot of Cory" className="margin-top" />
-            </div>
                 <div className="content-inside">
+                    <img src={Headshot} alt="A headshot of Cory" className="margin-top responsive" />
+                
                     <p className="clearfix">
                         Hi there, I'm a manufacturing technician transitioning into full stack web developing. 
                         In my previous work I was responsible for maintaining and repairing large and often dangerous equipment. 
@@ -50,7 +49,7 @@ const Home = () =>(
             <h3><p>Fun With Fermentation</p></h3>
                 <h4><p><a href="https://github.com/TheCoaxial/Final-Project" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
                 <a href="https://salty-dawn-64372.herokuapp.com/" target="_blank">
-                <img src={FWF} alt="A screen shot of the profile page" />
+                <img src={FWF} alt="A screen shot of the profile page" className="responsive"/>
                 </a>
             </div>                
         </div>
