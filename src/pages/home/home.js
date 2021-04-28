@@ -35,7 +35,7 @@ const Home = () =>(
                     <a href={Resume} download="Cory Scanlon's Resume" target="_blank">Download Cory's Resume</a>
                     </p>
 
-                    <p>Email: Thecoaxial@gmail.com</p> <p>Phone: (740)814-5702</p>
+                    <p>Email: coryscanlon012@gmail.com</p> <p>Phone: (740)814-5702</p>
 
                 </div>
         </section>
