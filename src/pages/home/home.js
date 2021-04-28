@@ -48,7 +48,7 @@ const Home = () =>(
             <div className="bottom-section" >    
             <h3><p>Fun With Fermentation</p></h3>
                 <h4><p><a href="https://github.com/TheCoaxial/Final-Project" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
-                <a href="https://salty-dawn-64372.herokuapp.com/" target="_blank">
+                <a href="https://dry-ravine-65547.herokuapp.com/login" target="_blank">
                 <img src={FWF} alt="A screen shot of the profile page" className="responsive"/>
                 </a>
             </div>                
