@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.2149e078.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.6bfafcbd.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.6bfafcbd.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.aaf2bbb3.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.aaf2bbb3.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.89ac54c9.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.89ac54c9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/React-Portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/FWF.76e4891c.png": "/React-Portfolio/static/media/FWF.76e4891c.png",
     "static/media/Headshot.13a10cfa.jpg": "/React-Portfolio/static/media/Headshot.13a10cfa.jpg",
     "static/media/Quiz.8a837638.png": "/React-Portfolio/static/media/Quiz.8a837638.png",
-    "static/media/Resume for Web Dev.886b88d9.pdf": "/React-Portfolio/static/media/Resume for Web Dev.886b88d9.pdf",
+    "static/media/Resume for Web Dev.41a07639.pdf": "/React-Portfolio/static/media/Resume for Web Dev.41a07639.pdf",
     "static/media/SoccerApp.2ab60b2e.png": "/React-Portfolio/static/media/SoccerApp.2ab60b2e.png"
   },
   "entrypoints": [
@@ -26,6 +26,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.63edd795.chunk.js",
     "static/css/main.2149e078.chunk.css",
-    "static/js/main.6bfafcbd.chunk.js"
+    "static/js/main.aaf2bbb3.chunk.js"
   ]
 }
