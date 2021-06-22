@@ -1,7 +1,7 @@
 import React from "react";
 import Headshot from "../../Assests/Headshot.jpg";
 import Resume from "../../Assests/Resume for Web Dev.pdf";
-import FWF from "../../Assests/Screencaps/FWF.png";
+import Quiz from "../../Assests/Screencaps/Quiz.png";
 import "./home.css";
 
 const Home = () =>(
@@ -46,10 +46,10 @@ const Home = () =>(
 
         <div className="block-center content">    
             <div className="bottom-section" >    
-            <h3><p>Fun With Fermentation</p></h3>
-                <h4><p><a href="https://github.com/TheCoaxial/Final-Project" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
-                <a href="https://dry-ravine-65547.herokuapp.com/login" target="_blank">
-                <img src={FWF} alt="A screen shot of the profile page" className="responsive"/>
+            <h3><p>Vue Quiz App</p></h3>
+                <h4><p><a href="https://github.com/TheCoaxial/VueQuiz/tree/main" target="_blank">Click here to see the repository or click the image to go to the deployed site</a></p></h4>
+                <a href="https://thecoaxial.github.io/VueQuiz/" target="_blank">
+                <img src={Quiz} alt="A screen shot of the profile page" className="responsive"/>
                 </a>
             </div>                
         </div>
